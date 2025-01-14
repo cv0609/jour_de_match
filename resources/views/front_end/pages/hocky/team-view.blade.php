@@ -1,7 +1,7 @@
 @extends('front_end.layout.main')
 @section('title', 'Visionneuse d'équipe')
 @section('content')
-
+<?php print_r($myTeam);die; ?>
 <!-- breadcrumb start -->
 <div class="breadcrumb-area bg-overlay" style="background-image:url('assets/img/banner/leagues-pages-banner.jpg')">
     <div class="container">
