@@ -117,8 +117,8 @@
                                     </button>
                                 </p>
                             </div>
-                        </li>
-                    @endforeach
+                          </li>
+                        @endforeach
 
                     </ul>
                 </div>
