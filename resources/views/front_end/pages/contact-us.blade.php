@@ -258,6 +258,9 @@
                         <p>
                             Veuillez remplir les informations suivantes :
                         </p>
+                        @if(Session::has('success'))
+                        <span class="alert alert-success text-center" style="width: 746px;">{{ Session::get('success') }}</span>
+                        @endif
                     </div>
                     <form id="contact" action="{{ route('contact.save') }}" method="post" class="mt-5 mt-md-4">
                        @csrf
