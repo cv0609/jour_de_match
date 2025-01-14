@@ -330,7 +330,7 @@
                     </p>
                 </div>
                 <div class="modal-footer">
-                    <button class="modal-btn btn btn-primary" data-bs-target="#exampleModalToggle1"
+                    <button class="modal-btn btn-primary" data-bs-target="#exampleModalToggle1"
                         data-bs-toggle="modal">Ok</button>
                 </div>
             </div>
@@ -357,7 +357,7 @@
                   <h4 id="login-message"></h4>
               </div>
               <div class="modal-footer">
-              <button type="button" id="login-click" class="btn btn-secondary" data-bs-dismiss="modal">Login</button>
+              <button type="button" id="login-click" class="modal-btn  btn-secondary" data-bs-dismiss="modal">Login</button>
               </div>
           </div>
           </div>
@@ -371,7 +371,7 @@
         <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Modal 1</h1>
+                    <h1 class="modal-title fs-5" id="exampleModalToggleLabel">modal1</h1>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -383,7 +383,7 @@
                     </p>
                 </div>
                 <div class="modal-footer">
-                    <button class="modal-btn btn btn-primary" data-bs-target="#errorModal2"
+                    <button class="modal-btn btn-primary" data-bs-target="#errorModal2"
                         data-bs-toggle="modal">Ok</button>
                 </div>
             </div>

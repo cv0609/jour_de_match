@@ -1078,7 +1078,7 @@ ul {
 }
 
 .breadcrumb-area .page-title {
-  font-size: 45px;
+  font-size: 2.8125rem;
   font-weight: 700;
   margin-bottom: 5px;
   color: #fff;
@@ -3347,6 +3347,7 @@ ul {
 .testimonial-area {
   background-position: center;
   background-size: contain;
+  box-shadow: #ff0268 0px 5px 15px;
 }
 
 .single-testimonial-inner {
@@ -5977,14 +5978,7 @@ a.tab.active {
   color: #000;
 }
 
-.leagues-list,
-.matches-list,
-.team-view-table,
-.basket_leagues-inner-content {
-  width: 100%;
-  overflow-x: auto;
-  border-radius: 14px;
-}
+
 
 .matches-details .matches-list {
   max-width: 1000px;
@@ -6054,7 +6048,7 @@ a.tab.active {
   width: 41px;
 }
 
-button.plus.player-toggle {
+button.player-toggle {
   border: none;
   display: flex;
   justify-content: center;
@@ -6065,7 +6059,7 @@ button.plus.player-toggle {
   background: #FF0268;
 }
 
-button.plus.player-toggle i {
+button.player-toggle i {
   color: #fff;
 }
 
@@ -6496,7 +6490,7 @@ li.team-member .match-team-logo img {
   width: max-content;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 6px;
-  left: 0;
+  right: 0;
   top: 120%;
   display: none;
 }
@@ -6530,7 +6524,9 @@ li.team-member .match-team-logo img {
 
 .dropdown li a img {
   margin-right: 10px;
-  max-width: 20px;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
 }
 
 div#mySidenavs {
@@ -6649,7 +6645,9 @@ div#mySidenavs {
   padding: 20px 10px;
   border-radius: 20px 0 0 20px;
 }
-
+li.my-match-item.header-color h6 {
+  font-size: 15px;
+}
 .col-sec {
   width: 60%;
 }
@@ -6831,3 +6829,64 @@ span.edit_pan i {
   cursor: pointer;
   text-underline-offset: 5px;
 }
+/* Modal CSS Start */
+.modal-body p {
+  color: #000;
+  font-size: 20px;
+  text-align: center;
+}
+
+.modal-footer {
+  justify-content: center;
+}
+
+.modal-image {
+  height: 100px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.modal-images-inner {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 70px;
+  width: 70px;
+  margin: 0 auto;
+}
+
+.modal-failure-image {
+  background-image: url(../img/modal/modal-close.png);
+}
+
+.modal-success-image {
+  background-image: url(../img/modal/modal-check.png);
+}
+.modal-title{
+  display: none;
+}
+.modal-btn {
+  color: #fff;
+  background-color:#ff0268;
+  border: none;
+  padding: 11px 30px !important;
+  width: auto;
+  font-size: 17px;
+  font-weight: 600;
+  border: 1px solid #ff0268;
+  transition: 0.3s all ease-in-out;
+  -webkit-transition: 0.3s all ease-in-out;
+  -moz-transition: 0.3s all ease-in-out;
+  -ms-transition: 0.3s all ease-in-out;
+  -o-transition: 0.3s all ease-in-out;
+}
+
+.modal-btn:hover {
+  background-color: #fff;
+  border: 1px solid #ff0268;
+  color: #000;
+}
+
+
+
+/* Modal CSS Start */

@@ -87,7 +87,7 @@
             </div>
         </div>
         <div class="row justify-content-center">
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 mb-4">
                 <div class="single-intro-inner style-3 text-center">
                     <div class="thumb border-radious-50" style="background-image: url(assets/img/intro/21.png) " ;>
                     </div>
@@ -100,7 +100,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 mb-4">
                 <div class="single-intro-inner style-3 text-center">
                     <div class="thumb border-radious-50" style="background-image: url('assets/img/intro/22.png');">
                     </div>
@@ -114,7 +114,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 mb-4">
                 <div class="single-intro-inner style-3 text-center">
                     <div class="thumb border-radious-50" style="background-image: url('assets/img/intro/23.png');">
                     </div>
@@ -126,7 +126,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
                 <div class="single-intro-inner style-3 text-center">
                     <div class="thumb border-radious-50" style="background-image: url('assets/img/intro/24.png');">
 
@@ -140,7 +140,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
                 <div class="single-intro-inner style-3 text-center">
                     <div class="thumb border-radious-50" style="background-image: url('assets/img/intro/25.png');">
 
@@ -155,7 +155,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6">
+            <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
                 <div class="single-intro-inner style-3 text-center">
                     <div class="thumb border-radious-50" style="background-image: url('assets/img/intro/26.png');">
 

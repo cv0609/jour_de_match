@@ -59,8 +59,9 @@
                    
                         <li class="league-item">
                             <a href="{{ route('leagueMatches',['leagueId'=>$league->id]) }}">
-                                <div class="league-logo"
-                                    style="background-image: url('{{ $league->logo }}');"></div>
+                                <div class="league-logo">
+                                    <img src="" alt="league-logo">
+                                   </div>
                                 <div class="league-details-main">
                                     <div class="league-details">
                                         <h6>{{ $league->name }}</h6>

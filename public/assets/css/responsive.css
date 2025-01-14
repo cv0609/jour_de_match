@@ -25,7 +25,7 @@
         width: 100%;
         padding: 50px;
         background-color: black;
-        transform: translateY(100%);
+        transform: translateX(100%);
         transition: all 0.3s linear;
         z-index: 100;
         color: #fff;
@@ -35,12 +35,13 @@
     }
 
     .menuToggle .navigation-menu {
-        transform: translateY(0);
+        transform: translateX(0);
         justify-content: flex-start;
     }
 
     .navigation-menu ul {
         flex-direction: column;
+		margin-bottom: 15px;
 
     }
 
@@ -105,6 +106,9 @@
 	}
 }
 @media all and (max-width: 991px) {
+	html{
+		font-size: 15px;
+	}
 	.navbar {
 		padding: 0;
 	}
@@ -156,6 +160,9 @@
 	}
 }
 @media all and (max-width: 767px) {
+	html{
+		font-size: 14px;
+	}
 	.single-blog-inner .thumb img {
 		width: 100%;
 	}
@@ -191,6 +198,9 @@
 	}
 }
 @media all and (max-width: 575px) {
+	.breadcrumb-area .page-title {
+		font-size: 1.8125rem;
+	}
 	.toggle-btn{
 	    top: 3px;
 	}
