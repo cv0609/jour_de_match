@@ -20,6 +20,9 @@
                 <div class="contact-form-inner-wrap">
                     <div class="section-title mb-0">
                         <h3 class="small-title mt-0">S'inscrire</h3>
+                        @if(Session::has('success'))
+                          <span class="alert alert-danger text-center" style="width: 746px;">{{ Session::get('success') }}</span>
+                        @endif
                     </div>
                     <form action="{{ route('signup.post') }}" method="post" class="mt-5 mt-md-4">
                          @csrf
