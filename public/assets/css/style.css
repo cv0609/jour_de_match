@@ -6926,7 +6926,7 @@ span.edit_pan i {
   border: 1px solid #ff0268;
   color: #000;
 }
-
-
-
 /* Modal CSS Start */
+.text-danger {
+  color: #000!important;
+}

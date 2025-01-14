@@ -51,7 +51,7 @@
                 <div class="match-details">
                     <!-- <h6>Brooklyn Nets</h6>
                     <p>Brooklyn</p> -->
-                    <span>>{{ date('Y-m-d h:i a',strtotime($matchDetails->fixture_date))}}</span>
+                    <span>{{ date('Y-m-d h:i a',strtotime($matchDetails->fixture_date))}}</span>
                 </div>
                 <div class="team-logo">
                     <div class="team_inner team_inner-right">
