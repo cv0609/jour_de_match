@@ -212,10 +212,36 @@
 
     .league-item {
         flex-shrink: 0;  
-        margin-right: 15px;  
     }
 	.profile-side ,.col-sec{
 		width: 100%;
+	}
+	.basket_leagues-inner-content ul {
+		min-width: 700px;
+		overflow-x: scroll;
+	}
+	.basket_leagues-inner-content {
+		overflow-x: scroll;
+	}
+	.header-color{
+		min-width: 700px;
+		overflow-x:scroll;
+	}
+	ul.my-matches {
+		min-width: 700px;
+		overflow-x: auto;
+	}
+	.brooklyn-main ul {
+		padding: 0;
+	}
+	.matches-table.association-main {
+		overflow-x: auto;
+	}
+	.association-main .div-tbl {
+		min-width: 700px;
+	}
+	.team-view-header h4 {
+		font-size: 15px;
 	}
 }
 @media all and (max-width: 575px) {
@@ -278,6 +304,26 @@
 	}
 	.section-title .title {
 		font-size: 24px;
+	}
+	.toggle-target a {
+		width: 50%;
+	}
+	.basket_leagues-inner h2 {
+		font-size: 25px;
+	}
+	.plyr-hedr .team-logo img {
+		width: 50px;
+		height: 50px;
+	}
+	.header-color h6 {
+		font-size: 14px;
+	}
+	.match-team h6 {
+		font-size: 14px;
+	}
+	.team-view-header ul li {
+		flex-direction: column;
+		text-align: center;
 	}
 }
 @media all and (max-width: 480px) {

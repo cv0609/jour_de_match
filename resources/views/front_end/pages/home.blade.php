@@ -356,7 +356,7 @@
 
                     <div class="item">
                         <div class="single-testimonial-inner style-two text-center">
-                            <div class="thumb" style="background-image: url('assets/img/testimonial/2.png');">
+                            <div class="thumb" style="background-image: url('assets/img/testimonial/31.jpg');">
 
                             </div>
 
@@ -385,7 +385,7 @@
 
                     <div class="item">
                         <div class="single-testimonial-inner style-two text-center">
-                            <div class="thumb" style="background-image: url('assets/img/testimonial/2.png');">
+                            <div class="thumb" style="background-image: url('assets/img/testimonial/4.jpg');">
 
                             </div>
                             <p>
@@ -414,7 +414,7 @@
 
                     <div class="item">
                         <div class="single-testimonial-inner style-two text-center">
-                            <div class="thumb" style="background-image: url('assets/img/testimonial/2.png');">
+                            <div class="thumb" style="background-image: url('assets/img/testimonial/5.jpg');">
 
                             </div>
                             <p>
@@ -441,7 +441,7 @@
 
                     <div class="item">
                         <div class="single-testimonial-inner style-two text-center">
-                            <div class="thumb" style="background-image: url('assets/img/testimonial/2.png');">
+                            <div class="thumb" style="background-image: url('assets/img/testimonial/6.jpg');">
 
                             </div>
                             <p>

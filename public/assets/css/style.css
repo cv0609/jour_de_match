@@ -3378,8 +3378,12 @@ ul {
 .single-testimonial-inner .thumb {
   display: inline-block;
   margin-bottom: 10px;
+  height: 80px;
+  width: 80px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
 }
-
 .single-testimonial-inner .thumb img {
   height: 90px;
   width: 90px;
@@ -5968,6 +5972,7 @@ td.match-score h4 {
   border-top-left-radius: 14px;
   border-top-right-radius: 14px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   border-bottom: 1px solid #fff;
 }
@@ -6249,6 +6254,7 @@ ul.my-team .player-dp img {
 .matches-list {
   max-width: 1000px;
   margin: 0 auto;
+  overflow-x:auto;
 }
 
 li.my-match-item {
