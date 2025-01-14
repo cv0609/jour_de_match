@@ -6931,3 +6931,28 @@ span.edit_pan i {
 .text-danger {
   color: #000!important;
 }
+.alert-danger {
+  color: red !important;
+  background-color: #fff !important;
+  border-color: red !important;
+}
+.alert-danger {
+  color: #842029;
+  background-color: #f8d7da;
+  border-color: #f5c2c7;
+  top: -40px;
+  right: 0;
+}
+.contact-form-area {
+  position: relative;
+}
+.alert {
+  padding: 7px;
+}
+.alert-danger {
+  color: #842029;
+  background-color: #f8d7da;
+  border-color: #f5c2c7;
+  top: -70px;
+  right: 0;
+}

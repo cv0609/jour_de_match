@@ -243,6 +243,10 @@
 	.team-view-header h4 {
 		font-size: 15px;
 	}
+	.contact-form-inner-wrap {
+		padding: 40px 20px;
+	}
+
 }
 @media all and (max-width: 575px) {
 	.breadcrumb-area .page-title {
