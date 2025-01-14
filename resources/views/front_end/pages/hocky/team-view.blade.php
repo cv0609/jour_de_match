@@ -87,18 +87,17 @@
                         </li>
                     </ul>
                     <ul class="my-team table-color">
-                    @foreach($myTeam as $value)
-
-                        <li>
+                    @foreach($myTeam as $team)
+                           <li>
                             <div class="player-dp captain-width">
-                                <img src="{{ $value['team_logo'] }}" alt="dp">
+                                <img src="{{ $team['team_logo'] }}" alt="dp">
                             </div>
                             <div class="player-info captain-width">
-                                <h6>{{ $value['player_name'] }}</h6>
+                                <h6>{{ $team['player_name'] }}</h6>
                             </div>
                             <div class="my-team-captain captain-width">
                                 <span class="c-logo">C</span>
-                                <p class="team_captain" data-league_id = "{{ $value['league_id'] }}" data-match_id = "{{ $value['match_id'] }}" data-team_id = "{{ $value['team_id'] }}" data-player_id = "{{ $value['player_id'] }}" data-already_captain = "{{ $value['already_captain'] ?? '' }}">
+                                <p class="team_captain" data-league_id = "{{ $team['league_id'] }}" data-match_id = "{{ $team['match_id'] }}" data-team_id = "{{ $team['team_id'] }}" data-player_id = "{{ $team['player_id'] }}" data-already_captain = "{{ $team['already_captain'] ?? '' }}">
                                     <button class="plus player-toggle captain-plus cap-vice-plus" data-event="cap_plus">
                                         <i class="fa-solid fa-plus"></i>
                                     </button>
@@ -109,7 +108,7 @@
                             </div>
                             <div class="my-team-vice-captain captain-width">
                                 <span class="c-logo">VC</span>
-                                <p class="team_captain team_vice_captain" data-league_id = "{{ $value['league_id'] }}" data-match_id = "{{ $value['match_id'] }}" data-team_id = "{{ $value['team_id'] }}" data-player_id = "{{ $value['player_id'] }}">
+                                <p class="team_captain team_vice_captain" data-league_id = "{{ $team['league_id'] }}" data-match_id = "{{ $team['match_id'] }}" data-team_id = "{{ $team['team_id'] }}" data-player_id = "{{ $team['player_id'] }}">
                                     <button class="plus player-toggle vice-cap-plus cap-vice-plus" data-event="vice_plus">
                                         <i class="fa-solid fa-plus"></i>
                                     </button>
@@ -119,7 +118,7 @@
                                 </p>
                             </div>
                         </li>
-                        @endforeach
+                    @endforeach
 
                     </ul>
                 </div>
