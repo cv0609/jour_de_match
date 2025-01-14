@@ -87,7 +87,6 @@
                         </li>
                     </ul>
                     <ul class="my-team table-color">
-                        <?php dd($myTeam); ?>
                     @foreach($myTeam as $key => $team)
                            <li>
                             <div class="player-dp captain-width">
