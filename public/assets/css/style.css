@@ -5732,10 +5732,10 @@ footer ul {
   display: inline-block;
 }
 
-.inline-list h3 a,
-.inline-list h3 {
+.inline-list h3 a, .inline-list h3 {
   color: #fff;
   font-size: 1.875rem;
+  line-height: 1;
 }
 
 .home-list {
@@ -5759,6 +5759,7 @@ footer ul {
   color: #fff;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
+  margin-top:0;
 }
 
 .basket_leagues-inner h2 {
