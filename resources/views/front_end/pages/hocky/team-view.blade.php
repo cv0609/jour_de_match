@@ -87,7 +87,8 @@
                         </li>
                     </ul>
                     <ul class="my-team table-color">
-                        @foreach($myTeam as $team)
+                        <?php foreach($myTeam as $team) { ?>
+                      
                           <li>
                             <div class="player-dp captain-width">
                                 <img src="{{ $team['team_logo'] }}" alt="dp">
@@ -118,7 +119,7 @@
                                 </p>
                             </div>
                           </li>
-                        @endforeach
+                        <?php } ?>
 
                     </ul>
                 </div>
