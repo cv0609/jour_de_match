@@ -1,5 +1,5 @@
 @extends('front_end.layout.main')
-@section('title', 'À Propos De Nous') @endsection
+@section('title', 'À Propos De Nous')
 @section('content')
 <!-- breadcrumb start -->
 <div class="breadcrumb-area bg-overlay" style="background-image:url('assets/img/banner/about-banner.jpg')">
