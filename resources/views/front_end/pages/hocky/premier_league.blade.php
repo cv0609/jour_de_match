@@ -60,7 +60,7 @@
                         <li class="league-item">
                             <a href="{{ route('leagueMatches',['leagueId'=>$league->id]) }}">
                                 <div class="league-logo">
-                                    <img src="" alt="league-logo">
+                                    <img src="{{ $league->logo }}" alt="league-logo">
                                    </div>
                                 <div class="league-details-main">
                                     <div class="league-details">
