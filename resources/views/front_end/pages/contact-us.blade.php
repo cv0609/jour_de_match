@@ -265,22 +265,34 @@
                             <div class="col-12">
                                 <div class="single-input-inner style-border">
                                     <input type="text" placeholder="Nom complet" name="name" value="{{ old('name') }}">
+                                    @error('name')
+                                     <span class="text-danger">{{ $message }}</span>
+                                    @enderror
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="single-input-inner style-border">
                                     <input type="text" placeholder="Adresse e-mail" name="email" id="email" value="{{ old('email') }}">
+                                    @error('email')
+                                     <span class="text-danger">{{ $message }}</span>
+                                    @enderror
                                 </div>
                             </div>
 
                             <div class="col-12">
                                 <div class="single-input-inner style-border">
                                     <input type="text" placeholder="Sujet de la demande" id="subject" name="subject" value="{{ old('subject') }}">
+                                    @error('subject')
+                                     <span class="text-danger">{{ $message }}</span>
+                                    @enderror
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="single-input-inner style-border">
                                     <textarea placeholder="Message" name="message" id="message">{{ old('message') }}</textarea>
+                                    @error('message')
+                                     <span class="text-danger">{{ $message }}</span>
+                                    @enderror
                                 </div>
                             </div>
                             <div class="col-12">
