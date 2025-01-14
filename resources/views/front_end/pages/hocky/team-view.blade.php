@@ -281,24 +281,24 @@
                     if (event == 'cap_plus') {
 
                         button.addClass('d-none');
-                        button.closest('td').find('.minus').removeClass('d-none');
+                        button.closest('li').find('.minus').removeClass('d-none');
 
                     } else if (event == 'cap_minus') {
 
                         button.addClass('d-none');
-                        button.closest('td').find('.plus').removeClass('d-none');
+                        button.closest('li').find('.plus').removeClass('d-none');
 
                     }
 
                     if (event == 'vice_plus') {
 
                         button.addClass('d-none');
-                        button.closest('td').find('.minus').removeClass('d-none');
+                        button.closest('li').find('.minus').removeClass('d-none');
 
                     } else if (event == 'vice_minus') {
 
                         button.addClass('d-none');
-                        button.closest('td').find('.plus').removeClass('d-none');
+                        button.closest('li').find('.plus').removeClass('d-none');
 
                     }
                 },
