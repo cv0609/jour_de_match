@@ -1,6 +1,4 @@
-/*--------------------------------------------------
-    ## All responsive style
----------------------------------------------------*/
+
 @media all and (min-width: 1600px) {
 	.container {
 		max-width: 1170px;
@@ -9,9 +7,6 @@
 	    position: relative;
 	    padding: 459px 0 337px 0;
 	}
-}
-@media all and (max-width: 1440px) {
-	
 }
 @media screen and (max-width: 1199px) {
 	.upcoming-match-inner .name {
@@ -219,6 +214,9 @@
         flex-shrink: 0;  
         margin-right: 15px;  
     }
+	.profile-side ,.col-sec{
+		width: 100%;
+	}
 }
 @media all and (max-width: 575px) {
 	.breadcrumb-area .page-title {

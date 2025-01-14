@@ -90,7 +90,7 @@
         <div class="row justify-content-center">
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="single-intro-inner style-3 text-center">
-                    <div class="thumb border-radious-50" style="background-image: url(assets/img/intro/21.png) " ;>
+                    <div class="thumb border-radious-50" style="background-image: url(assets/img/intro/21.png);">
                     </div>
                     <div class="details">
                         <h4>La Plus Grande Sélection de Joueurs</h4>
@@ -305,7 +305,7 @@
                 <div class="testimonial-slider slider-control-dots owl-carousel">
                     <div class="item">
                         <div class="single-testimonial-inner style-two text-center">
-                            <div class="thumb" style="background-image: url('assets/img/testimonial/1.png');">
+                            <div class="thumb" style="background-image: url('assets/img/testimonial/1.jpg');">
                             </div>
                             <p>Jour De Match est une excellente plateforme pour les fans de hockey fantasy. La base
                                 de
@@ -329,7 +329,7 @@
                     </div>
                     <div class="item">
                         <div class="single-testimonial-inner style-two text-center">
-                            <div class="thumb" style="background-image: url('assets/img/testimonial/2.png');">
+                            <div class="thumb" style="background-image: url('assets/img/testimonial/2.jpg');">
 
                             </div>
 

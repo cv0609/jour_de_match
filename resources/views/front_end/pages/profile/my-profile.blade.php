@@ -21,7 +21,7 @@
 <!-- Leagues Content Section Start -->
 <div class="my-profile py-10">
     <div class="container">
-        <div class="mmy-profile-inner">
+        <div class="mmy-profile-inner"  style="background-image: url('{{ asset('assets/img/banner/my-profile-bg.jpg') }}');">
             @include('front_end.pages.profile.profile-sidebar')
             <div class="col-sec">
                 <div class="user-content-update">

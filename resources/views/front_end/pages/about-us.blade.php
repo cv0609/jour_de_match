@@ -142,7 +142,6 @@
         </div>
     </div>
 </div>
-</div>
 <!-- counter area end -->
 
 
@@ -265,7 +264,6 @@
             </div>
         </div>
     </div>
-</div>
 </div>
 <!-- counter area end -->
 
