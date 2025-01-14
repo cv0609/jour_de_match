@@ -259,31 +259,32 @@
                             Veuillez remplir les informations suivantes :
                         </p>
                     </div>
-                    <form class="mt-5 mt-md-4">
-                        <div class="row">
+                    <form id="contact" action="{{ route('contact.save') }}" method="post" class="mt-5 mt-md-4">
+                       @csrf
+                       <div class="row">
                             <div class="col-12">
                                 <div class="single-input-inner style-border">
-                                    <input type="text" placeholder="Nom complet">
+                                    <input type="text" placeholder="Nom complet" name="name" value="{{ old('name') }}">
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="single-input-inner style-border">
-                                    <input type="text" placeholder="Adresse e-mail">
+                                    <input type="text" placeholder="Adresse e-mail" name="email" id="email" value="{{ old('email') }}">
                                 </div>
                             </div>
 
                             <div class="col-12">
                                 <div class="single-input-inner style-border">
-                                    <input type="text" placeholder="Sujet de la demande">
+                                    <input type="text" placeholder="Sujet de la demande" id="subject" name="subject" value="{{ old('subject') }}">
                                 </div>
                             </div>
                             <div class="col-12">
                                 <div class="single-input-inner style-border">
-                                    <textarea placeholder="Message"></textarea>
+                                    <textarea placeholder="Message" name="message" id="message">{{ old('message') }}</textarea>
                                 </div>
                             </div>
                             <div class="col-12">
-                                <button class="btn btn-base">Send Message</button>
+                                <button class="btn btn-base" name="submit" type="submit">Send Message</button>
                             </div>
                         </div>
                     </form>
