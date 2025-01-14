@@ -90,7 +90,7 @@
                     @foreach($myTeam as $key => $team)
                            <li>
                             <div class="player-dp captain-width">
-                                <img src="{{ $team['team_logo'] }}" alt="dp">
+                                <img src="" alt="dp">
                             </div>
                             <div class="player-info captain-width">
                                 <h6>{{ $team['player_name'] }}</h6>
