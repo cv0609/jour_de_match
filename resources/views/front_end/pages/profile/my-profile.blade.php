@@ -1,4 +1,5 @@
 @extends('front_end.layout.main')
+@section('title', 'Mon profil')
 @section('content')
 <!-- banner start -->
 <div class="banner-area" style="background-image: url('{{ asset('assets/img/banner/leagues-pages-banner.jpg') }}');">

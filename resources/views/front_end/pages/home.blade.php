@@ -1,4 +1,5 @@
 @extends('front_end.layout.main')
+@section('title', 'Maison')
 @section('content')
 <!-- banner start -->
 <div class="banner-area" style="background-image: url('assets/img/banner/home-banner-image.jpg');">

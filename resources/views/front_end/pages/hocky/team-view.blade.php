@@ -1,4 +1,5 @@
 @extends('front_end.layout.main')
+@section('title', 'Visionneuse d'équipe')
 @section('content')
 
 <!-- breadcrumb start -->

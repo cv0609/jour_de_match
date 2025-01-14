@@ -1,4 +1,5 @@
 @extends('front_end.layout.main')
+@section('title', 'My players')
 @section('content')
 
 @php

@@ -1,4 +1,5 @@
 @extends('front_end.layout.main')
+@section('title', 'Mettre à jour le mot de passe')
 @section('content')
 <div class="banner-area" style="background-image: url('{{asset('assets/img/banner/leagues-pages-banner.jpg')}}')">
     <div class="container">

@@ -1,4 +1,5 @@
 @extends('front_end.layout.main')
+@section('title', 'Comment Jouer')
 @section('content')
 <!-- banner start -->
 <div class="banner-area" style="background-image: url('assets/img/banner/how-play-banner.jpg');">

@@ -1,4 +1,5 @@
 @extends('front_end.layout.main')
+@section('title', 'Contactez-Nous')
 @section('content')
 
 <!-- breadcrumb start -->

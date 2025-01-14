@@ -1,4 +1,5 @@
 @extends('front_end.layout.main')
+@section('title', 'Détails des matchs')
 @section('content')
 <!-- breadcrumb start -->
 <div class="breadcrumb-area bg-overlay" style="background-image:url('assets/img/banner/leagues-pages-banner.jpg')">
