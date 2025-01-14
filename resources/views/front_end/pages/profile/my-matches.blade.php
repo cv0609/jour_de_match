@@ -13,7 +13,7 @@ $PointCalculationService = app(App\Services\PointCalculationService::class);
                 <ul class="leagues-ul">
                     <li class="inline-list home-list">
                         <h3>
-                            <a href="./">Maison</a>
+                            <a href="{{ route('home') }}">Maison</a>
                         </h3>
                     </li>
                     <li class="inline-list next-page-list">
@@ -56,49 +56,33 @@ $PointCalculationService = app(App\Services\PointCalculationService::class);
                         </li>
                     </ul>
                     <ul class="my-matches table-color">
-                        <li class="my-match-item">
+                    @foreach ($matches as $match)
+                                @php
+                                    $points = $PointCalculationService->calculatePoints(Auth::user()->id,$match->fixture_id);
+                                @endphp
+                        <li class="my-match-item matche-main" data-fixture-id="{{ $match->fixture_id ?? ''}}" data-league-id="{{ $match->league->league_id ?? ''}}">
                             <div class="my-match-team-logo match-width">
-                                <img src="assets/img/leagues/ligue-magnus.png" alt="my-matches-logo">
-                                <h6>Ligue Magnus</h6>
+                                <img src="{{ $match->home_team_logo ?? '' }}" alt="my-matches-logo">
+                                <h6>{{ $match->home_team_name ?? '' }}</h6>
                             </div>
                             <div class="my-match-info match-width">
-                                <h6>Brooklyn Nets</h6>
-                                <p>Brooklyn</p>
-                                <span>2024-12-29 07:30 PM</span>
+                            <h6>{{ $match->venue_name ?? '' }}</h6>
+                            <p>{{$match->venue_city ?? ''}}</p>
+                            <span>{{ date('Y-m-d h:i a', strtotime($match->fixture_date ?? '')) }}</span>
                             </div>
                             <div class="my-match-team-logo match-width">
-                                <img src="assets/img/leagues/ligue-magnus.png" alt="my-matches-logo">
-                                <h6>Ligue Magnus</h6>
+                                <img src="{{ $match->away_team_logo ?? '' }}" alt="my-matches-logo">
+                                <h6>{{ $match->away_team_name ?? '' }}</h6>
                             </div>
                             <div class="my-match-score match-width">
-                                <h4>0</h4>
+                                <h4>{{$points ?? 0}}</h4>
                             </div>
                             <div class="my-match-status match-width">
                                 <p class="win">-- </p>
                             </div>
                         </li>
+                        @endforeach     
 
-                        <li class="my-match-item">
-                            <div class="my-match-team-logo match-width">
-                                <img src="assets/img/leagues/ligue-magnus.png" alt="my-matches-logo">
-                                <h6>Ligue Magnus</h6>
-                            </div>
-                            <div class="my-match-info match-width">
-                                <h6>Brooklyn Nets</h6>
-                                <p>Brooklyn</p>
-                                <span>2024-12-29 07:30 PM</span>
-                            </div>
-                            <div class="my-match-team-logo match-width">
-                                <img src="assets/img/leagues/ligue-magnus.png" alt="my-matches-logo">
-                                <h6>Ligue Magnus</h6>
-                            </div>
-                            <div class="my-match-score match-width">
-                                <h4>0</h4>
-                            </div>
-                            <div class="my-match-status match-width">
-                                <p class="win">-- </p>
-                            </div>
-                        </li>
                     </ul>
 
                 </div>
