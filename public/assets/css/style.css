@@ -1697,7 +1697,7 @@ ul {
 }
 
 .navigation-menu ul li a {
-  padding: 10px 5px;
+  padding: 10px;
   display: inline-block;
   text-align: center;
   text-decoration: none;
@@ -3584,6 +3584,11 @@ ul {
   padding: 30px;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+  background-color: #FF0268;
+}
+
+.single-contact-info p {
+  color: #fff;
 }
 
 .single-contact-info .thumb {
@@ -3644,10 +3649,14 @@ ul {
 
 .contact-form-inner-wrap {
   -webkit-box-shadow: 0px 3px 10px #ff02676f;
-  ;
   box-shadow: 0px 3px 10px #ff02676f;
   padding: 40px 50px;
   height: 100%;
+  background: #ff0268;
+}
+
+.contact-form-inner-wrap p {
+  color: #fff;
 }
 
 .contact-form-inner-wrap .section-title {
@@ -3655,10 +3664,16 @@ ul {
   margin-bottom: 30px;
 }
 
+button.btn.btn-base {
+  background: #fff;
+  color: #ff0268;
+}
+
 .contact-form-inner-wrap .section-title h3 {
   position: relative;
   padding-bottom: 10px;
   margin-bottom: -1px;
+  color: #fff;
 }
 
 .contact-form-inner-wrap .section-title h3:after {
@@ -5465,10 +5480,6 @@ footer ul {
   color: #fff;
 }
 
-.service-area-how-play .details ul li {
-  list-style: none;
-}
-
 .service-area-how-play .details h5 {
   color: #fff !important;
 }
@@ -5504,13 +5515,15 @@ footer ul {
 .tips-how-play ul {
   list-style-type: none;
 }
-.how-play-thumb{
+
+.how-play-thumb {
   height: 400px !important;
   width: 100% !important;
   background-position: top !important;
   background-repeat: no-repeat !important;
   background-size: cover !important;
 }
+
 /* How To Play CSS End*/
 
 /* FAQ CSS Start */
@@ -5700,6 +5713,8 @@ footer ul {
 
 .leagues-list {
   padding: 3.125rem 0;
+  max-width: 1050px;
+  margin: 0 auto;
 }
 
 .league-item a:hover {
@@ -6132,7 +6147,7 @@ button.player-toggle i {
 }
 
 .c-logo {
-  background:#FF0268;
+  background: #FF0268;
   width: 30px;
   height: 30px;
   aspect-ratio: 1;
@@ -6325,6 +6340,7 @@ li.my-match-item {
   display: flex;
   align-items: center;
 }
+
 .team_inner-right {
   align-items: center;
   justify-content: flex-end;
@@ -6390,6 +6406,18 @@ li.team-member .match-team-logo img {
 
 
 /* Footer Pages CSS Start*/
+.disclaimer {
+  border-bottom: 1px solid #ff0268;
+}
+.disclaimer h3 {
+  color: #fff;
+  margin-bottom: 15px;
+}
+.disclaimer p {
+  color: #fff;
+font-size: 1rem;
+}
+
 .footer-pages-wrap {
   max-width: 81.25rem;
   margin: 0 auto;
@@ -6645,9 +6673,11 @@ div#mySidenavs {
   padding: 20px 10px;
   border-radius: 20px 0 0 20px;
 }
+
 li.my-match-item.header-color h6 {
   font-size: 15px;
 }
+
 .col-sec {
   width: 60%;
 }
@@ -6829,6 +6859,7 @@ span.edit_pan i {
   cursor: pointer;
   text-underline-offset: 5px;
 }
+
 /* Modal CSS Start */
 .modal-body p {
   color: #000;
@@ -6862,12 +6893,14 @@ span.edit_pan i {
 .modal-success-image {
   background-image: url(../img/modal/modal-check.png);
 }
-.modal-title{
+
+.modal-title {
   display: none;
 }
+
 .modal-btn {
   color: #fff;
-  background-color:#ff0268;
+  background-color: #ff0268;
   border: none;
   padding: 11px 30px !important;
   width: auto;

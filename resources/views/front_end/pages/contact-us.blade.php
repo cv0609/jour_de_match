@@ -300,7 +300,7 @@
                                 </div>
                             </div>
                             <div class="col-12">
-                                <button class="btn btn-base" name="submit" type="submit">Send Message</button>
+                                <button class="btn btn-base" name="submit" type="button">Send Message</button>
                             </div>
                         </div>
                     </form>

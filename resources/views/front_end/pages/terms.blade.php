@@ -1,5 +1,5 @@
 @extends('front_end.layout.main')
-@section('title', 'Conditions Générales d'Utilisation')
+@section('title', `Conditions Générales d'Utilisation`)
 @section('content')
 <!-- breadcrumb start -->
 <div class="breadcrumb-area bg-overlay" style="background-image:url('assets/img/banner/terms-banner.jpg')">

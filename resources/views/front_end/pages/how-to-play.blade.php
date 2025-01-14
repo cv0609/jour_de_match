@@ -30,7 +30,7 @@
         </div>
         <div class="row justify-content-center">
             <div class="col-lg-12 col-md-12 col-12">
-                <div class="single-intro-inner style-3 text-center">
+                <div class="single-intro-inner style-3 how-play-crd">
                     <div class="thumb how-play-thumb" style="background-image: url(assets/img/how-play/how-play1.jpg);">
                     </div>
                     <div class="details">
@@ -80,7 +80,7 @@
                 </div>
             </div>
             <div class="col-lg-12 col-md-12 col-12">
-                <div class="single-intro-inner style-3 text-center">
+                <div class="single-intro-inner style-3  how-play-crd">
                     <div class="thumb how-play-thumb" style="background-image: url(assets/img/how-play/how-play2.jpg);">
                     </div>
                     <div class="details">
@@ -216,7 +216,7 @@
                 </div>
             </div>
             <div class="col-lg-12 col-md-12 col-12">
-                <div class="single-intro-inner style-3 text-center">
+                <div class="single-intro-inner style-3 ">
                     <div class="thumb how-play-thumb" style="background-image: url(assets/img/how-play/how-play3.jpg);">
                     </div>
                     <div class="details">
@@ -287,7 +287,7 @@
                 </div>
             </div>
             <div class="col-lg-12 col-md-12 col-12">
-                <div class="single-intro-inner style-3 text-center">
+                <div class="single-intro-inner style-3 ">
                     <div class="thumb how-play-thumb" style="background-image: url(assets/img/how-play/how-play4.jpg);">
                     </div>
                     <div class="details">
@@ -328,7 +328,7 @@
                 </div>
             </div>
             <div class="col-lg-12 col-md-12 col-12">
-                <div class="single-intro-inner style-3 text-center">
+                <div class="single-intro-inner style-3 ">
                     <div class="thumb how-play-thumb" style="background-image: url(assets/img/how-play/how-play5.png);">
                     </div>
                     <div class="details">
@@ -372,7 +372,7 @@
                 </div>
             </div>
             <div class="col-lg-12 col-md-12 col-12">
-                <div class="single-intro-inner style-3 text-center">
+                <div class="single-intro-inner style-3">
                     <div class="thumb how-play-thumb" style="background-image: url(assets/img/how-play/how-play6.jpg);">
                     </div>
                     <div class="details">

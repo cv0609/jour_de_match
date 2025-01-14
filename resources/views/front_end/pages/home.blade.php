@@ -26,7 +26,7 @@
 <!-- service start -->
 <div class="service-area mg-bottom-100">
     <div class="container">
-        <div class="service-bg bg-cover" style="background-image: url(assets/img/bg/service-bg.png);">
+        <div class="service-bg" style="background-image: url(assets/img/bg/service-bg.png);">
             <div class="row justify-content-center">
                 <div class="col-lg-4 col-md-6">
                     <div class="single-intro-inner text-center">
@@ -209,7 +209,7 @@
                     <div class="thumb media-left" style="background-image: url('assets/img/feature/2.png');">
                     </div>
                     <div class="details media-body">
-                        <h4><a href="blog-details.html">Fantasy Quotidien</a></h4>
+                        <h4>Fantasy Quotidien</h4>
                         <p>Vous préférez l’action rapide
                             ? Créez une nouvelle
                             équipe chaque jour, en
@@ -226,7 +226,7 @@
                     <div class="thumb" style="background-image: url('assets/img/feature/3.png');">
                     </div>
                     <div class="details">
-                        <h4><a href="blog-details.html">Face-à-Face</a></h4>
+                        <h4>Face-à-Face</h4>
                         <p>Défiez un ami ou un autre
                             joueur dans un affrontement
                             direct. Constituez votre
@@ -241,8 +241,8 @@
                     <div class="thumb" style="background-image: url('assets/img/feature/4.png');">
                     </div>
                     <div class="details">
-                        <h4><a href="blog-details.html">Ligues Professionnelles
-                            </a></h4>
+                        <h4>Ligues Professionnelles
+                            </h4>
                         <p>Rejoignez une ligue
                             professionnelle avec des
                             enjeux plus élevés. Ces
@@ -258,8 +258,8 @@
                     <div class="thumb" style="background-image: url('assets/img/feature/5.png');">
                     </div>
                     <div class="details">
-                        <h4><a href="blog-details.html">Tournois
-                            </a></h4>
+                        <h4>Tournois
+                            </h4>
                         <p>Participez à des tournois
                             saisonniers ou ponctuels.
                             Testez vos compétences
@@ -274,7 +274,7 @@
                     <div class="thumb" style="background-image: url('assets/img/feature/6.png');">
                     </div>
                     <div class="details">
-                        <h4><a href="blog-details.html">Défis Pick’em</a></h4>
+                        <h4>Défis Pick’em</h4>
                         <p>Choisissez vos joueurs et
                             prédisez les meilleures
                             performances. La manière
