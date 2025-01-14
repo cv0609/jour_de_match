@@ -77,7 +77,7 @@ class HockyController extends Controller
         if(Session::has('myTeam')){
             $myTeam = Session::get('myTeam', []);
         }
-         dd($myTeam);
+         
         return view('front_end.pages.hocky.team-view',compact('myTeam'));
     }
 
