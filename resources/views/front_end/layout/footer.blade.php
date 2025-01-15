@@ -58,7 +58,7 @@
             <div class="footer-copyright-ssl-wrap">
                 <div class="copyright-wrap">
                     <p>
-                        Copyright &copy; {{ date('Y') }} Jourdematch.co All Rights Reserved.
+                    Droit d'auteur &copy; {{ date('Y') }} Jourdematch.co Tous droits réservés.
                     </p>
                 </div>
                 <div class="ssl-container">
