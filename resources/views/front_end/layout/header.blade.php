@@ -47,7 +47,7 @@
                     <div class="profile">
                      <div class="avatar">
                          <div class="avatar-content">
-                             <a href="#">
+                             <a href="javascript:void(0)">
                                  <div class="profile-image">
                                      <img src="{{(!empty(Auth::user()->image)) ? asset(Auth::user()->image) : asset('assets/img/dummy.jpg') }}" alt="dp">
                                  </div>

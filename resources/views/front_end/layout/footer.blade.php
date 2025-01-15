@@ -25,7 +25,7 @@
                     </div>
                     <div class="col-lg-4 col-md-6 col-sm-12 col-12">
                         <div class="footer-blocks footer-menus">
-                            <h3>
+                            <h3> 
                                 Liens rapides
                             </h3>
                             <ul>
