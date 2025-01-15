@@ -30,6 +30,7 @@
                             </h3>
                             <ul>
                                 <li><a href="{{ route('home') }}">Maison</a></li>
+                                <li><a href="{{ route('terms') }}">Politique sur la Protection des Données Personnelles</a></li>
                                 <li><a href="{{ route('privacy') }}">Politique de Confidentialité</a></li>
                                 <li><a href="{{ route('terms') }}">Conditions Générales d'Utilisation</a></li>
                             </ul>
