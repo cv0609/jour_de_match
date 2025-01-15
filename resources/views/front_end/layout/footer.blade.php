@@ -62,7 +62,7 @@
                     </p>
                 </div>
                 <div class="ssl-container">
-                    <div class="ssl-logo" style="background-image: url('{{asset('assets/img/logo/logo.svg')}}' );"></div>
+                    <div class="ssl-logo" style="background-image: url('{{asset('assets/img/logo/ssl.png')}}' );"></div>
                 </div>
             </div>
         </div>

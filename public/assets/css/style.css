@@ -2409,23 +2409,23 @@ ul {
 }
 
 .single-input-inner input::-webkit-input-placeholder {
-  color: #bbbbbb;
+  color: #454545;
 }
 
 .single-input-inner input::-moz-placeholder {
-  color: #bbbbbb;
+  color: #454545;
 }
 
 .single-input-inner input:-ms-input-placeholder {
-  color: #bbbbbb;
+  color: #454545;
 }
 
 .single-input-inner input::-ms-input-placeholder {
-  color: #bbbbbb;
+  color: #454545;
 }
 
 .single-input-inner input::placeholder {
-  color: #bbbbbb;
+  color: #454545;
 }
 
 .single-input-inner textarea {
@@ -2437,23 +2437,23 @@ ul {
 }
 
 .single-input-inner textarea::-webkit-input-placeholder {
-  color: #bbbbbb;
+  color: #454545;
 }
 
 .single-input-inner textarea::-moz-placeholder {
-  color: #bbbbbb;
+  color: #454545;
 }
 
 .single-input-inner textarea:-ms-input-placeholder {
-  color: #bbbbbb;
+  color: #454545;
 }
 
 .single-input-inner textarea::-ms-input-placeholder {
-  color: #bbbbbb;
+  color: #454545;
 }
 
 .single-input-inner textarea::placeholder {
-  color: #bbbbbb;
+  color: #454545;
 }
 
 .single-input-inner.style-border input {
@@ -2461,23 +2461,23 @@ ul {
 }
 
 .single-input-inner.style-border input::-webkit-input-placeholder {
-  color: #bbbbbb;
+  color: #454545;
 }
 
 .single-input-inner.style-border input::-moz-placeholder {
-  color: #bbbbbb;
+  color: #454545;
 }
 
 .single-input-inner.style-border input:-ms-input-placeholder {
-  color: #bbbbbb;
+  color: #454545;
 }
 
 .single-input-inner.style-border input::-ms-input-placeholder {
-  color: #bbbbbb;
+  color: #454545;
 }
 
 .single-input-inner.style-border input::placeholder {
-  color: #bbbbbb;
+  color: #454545;
 }
 
 .single-input-inner.style-border textarea {
@@ -2485,23 +2485,23 @@ ul {
 }
 
 .single-input-inner.style-border textarea::-webkit-input-placeholder {
-  color: #bbbbbb;
+  color: #454545;
 }
 
 .single-input-inner.style-border textarea::-moz-placeholder {
-  color: #bbbbbb;
+  color: #454545;
 }
 
 .single-input-inner.style-border textarea:-ms-input-placeholder {
-  color: #bbbbbb;
+  color: #454545;
 }
 
 .single-input-inner.style-border textarea::-ms-input-placeholder {
-  color: #bbbbbb;
+  color: #454545;
 }
 
 .single-input-inner.style-border textarea::placeholder {
-  color: #bbbbbb;
+  color: #454545;
 }
 
 .single-input-inner.style-bg input {
@@ -5739,7 +5739,7 @@ footer ul {
 }
 
 .home-list {
-  padding-right: 1.5625rem;
+  padding-right: 15px;
 }
 
 .next-page-list {
@@ -5759,7 +5759,7 @@ footer ul {
   color: #fff;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
-  margin-top:0;
+  margin-top:-2px;
 }
 
 .basket_leagues-inner h2 {
@@ -6590,25 +6590,15 @@ div#mySidenavs {
 .profile-dropdown-options {
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   width: 30px;
   height: 30px;
   display: inline-block;
   margin-right: 10px;
-}
 
-.profile-image-dropdown {
-  background-image: url("../images/user.png");
 }
 
 
-.profile-image-stadium {
-  background-image: url("../images/stadium.png");
-}
-
-.profile-image-logout {
-  background-image: url("../images/logout.png");
-}
 
 .avatar-content i {
   color: #ffff;
@@ -6628,6 +6618,7 @@ div#mySidenavs {
 
 .dropdown ul {
   display: block !important;
+  padding-left: 0 !important;
 }
 
 .dropdown ul li a {

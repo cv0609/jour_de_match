@@ -329,11 +329,15 @@
 		flex-direction: column;
 		text-align: center;
 	}
+
 }
 @media all and (max-width: 480px) {
 	.about-thumb {
 		height: 300px;
 		width: 300px;
+	}
+	.alert-danger {
+		font-size: 13px;
 	}
 }
 @media all and (max-width: 360px) {

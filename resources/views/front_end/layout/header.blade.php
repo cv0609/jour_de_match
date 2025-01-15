@@ -61,18 +61,18 @@
                          <div class="dropdown">
                              <ul>
                                  <li><a href="{{ route('profile.profile') }}">
-                                 <img src="{{(!empty(Auth::user()->image)) ? asset(Auth::user()->image) : asset('assets/img/dummy.jpg') }}" alt="my-profile">Mon profil
+                                 <div class="profile-dropdown-options profile-image-dropdown" style="background-image: url('{{asset('assets/img/dummy.jpg')}}' );"></div>Mon profil
                                      </a>
                                  </li>
                                  <li>
                                      <a href="{{route('profile.matches')}}">
-                                     <img src="{{(!empty(Auth::user()->image)) ? asset(Auth::user()->image) : asset('assets/img/stadium.png') }}" alt="my-matches">
+                                     <div class="profile-dropdown-options profile-image-stadium" style="background-image: url('{{asset('assets/img/stadium.png')}}' );"></div>
                                      Mes matchs
                                      </a>
                                  </li>
                                  <li>
                                      <a href="{{ route('logout') }}">
-                                     <img src="{{(!empty(Auth::user()->image)) ? asset(Auth::user()->image) : asset('assets/img/logout.png') }}" alt="logout">Déconnexion
+                                     <div class="profile-dropdown-options profile-image-logout" style="background-image: url('{{asset('assets/img/logout.png')}}' );"></div>Déconnexion
                                      </a>
                                  </li>
                              </ul>
